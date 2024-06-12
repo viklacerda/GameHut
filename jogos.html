@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jogos</title>
+  <link href="style1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- <p>Alguns jogos que podem te interessar:</p> -->
+
+  <!-- <div id='dvSlider' onmouseover='parar()' onmouseout='iniciarSlider()'>
+    <input type='button' value='<' class='btn' onclick='troca(-1)' />
+    <input type='button' value='>' class='btn' onclick='troca(1)' />
+  </div>
+ -->
+  <!-- --------------------------------------------- -->
+
+  <p>Alguns jogos que podem te interessar:</p>
+
+  <div class="container">
+
+    <div class='card' onmouseover="aumentarCard(this)" onmouseout="reduzirCard(this)">
+      <img src='img1.jpg' alt='Card' class='card-img'>
+      <div class='card-content'>
+        <p class='card-description'>Dead Cells</p>
+      </div>
+      <button class='card-button' onclick='showmoreInfo()'><a href='https://deadcells.fandom.com/wiki/Dead_Cells_Wiki'
+          target=_Blank>Mostre mais</button></a>
+    </div>
+
+    <div class='card' onmouseover="aumentarCard(this)" onmouseout="reduzirCard(this)">
+      <img src='img2.png' alt='Card' class='card-img'>
+      <div class='card-content'>
+        <p class='card-description'>Ori</p>
+      </div>
+      <button class='card-button' onclick='showmoreInfo()'><a
+          href='https://oriandtheblindforest.fandom.com/wiki/Ori_and_the_Blind_Forest_Wiki' target=_Blank>Mostre
+          mais</button></a>
+    </div>
+
+    <div class='card' onmouseover="aumentarCard(this)" onmouseout="reduzirCard(this)">
+      <img src='img4.png' alt='Card' class='card-img'>
+      <div class='card-content'>
+        <p class='card-description'>Bloodstained</p>
+      </div>
+      <button class='card-button' onclick='showmoreInfo()'><a
+          href="https://bloodstained.fandom.com/wiki/Bloodstained_Wiki" target="_blank">Mostre mais</button></a>
+    </div>
+
+  </div>
+
+
+  <p>Onde posso comprá-los?</p>
+  <img src="steam1.png" class='imgclass' />
+  <p class='steamepic'>A Steam, criada pela Valve Corporation, é uma das plataformas mais populares e completas para a
+    distribuição digital de jogos. Com uma biblioteca imensa que abrange desde grandes lançamentos até jogos
+    independentes, a Steam oferece uma experiência única de compra, com recursos como comunidade, workshops, análises de
+    usuários e promoções sazonais. Sua longa história e compromisso com a qualidade a tornam uma escolha confiável e
+    preferida por milhões de jogadores em todo o mundo.</p>
+  <button id='botao'><a href="https://store.steampowered.com/" target="_blank" class="botao">Visitar
+      Steam</a></button><br>
+
+
+  <br><img src="epic.png" class='imgclass'>
+  <p class='steamepic'>A Epic Games Store é uma plataforma digital de jogos mantida pela renomada desenvolvedora Epic
+    Games. Reconhecida por suas exclusividades, descontos generosos e suporte ativo à comunidade de jogadores e
+    criadores de conteúdo, a loja oferece uma vasta seleção de títulos AAA e indie. Com integração à Unreal Engine, a
+    Epic Games Store se destaca como uma opção diversificada e vibrante para comprar e explorar novos jogos.</p>
+  <button id='botao'><a href="https://www.epicgames.com/store/pt-BR/" target="_blank" class="botao">Visitar Epic
+      Games</a></button>
+
+
+
+  <p class='voltar'><a href='index.html'>Voltar</p></a>
+
+
+
+
+  <script src="script1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!-- BOTÕES CLICÁVEIS: -->
+
+<!-- HOME: LOGIN
+Email
+Senha
+Checkbox 
+Registre-se
+Nome de usuário
+Faça Login
+X (Fechar janela de Login) -->
+
+<!-- CONTATO:
+Opção de me mandar um email-->
+
+<!-- JOGOS:
+BOTÕES E CARDS COM ANIMAÇÃO AO PASSAR O MOUSE
+CLICÁVEL - MOSTRE MAIS/VISITAR STEAM/VOLTAR -->
+
+<!-- SOBRE
+CARDS COM ANIMAÇÃO AO PASSAR O MOUSE
+BOTAO DISCORD
+VOLTAR -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trabalho Web2</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- MENU HAMBURGUER -->
+  <header>
+    <h2 class='logo'>GameHut</h2>
+    <nav class='navigation'>
+      <a href='#'>Home</a>
+      <a href='sobre.html' target="_blank">Sobre</a>
+      <a href="jogos.html" target="_blank">Jogos</a>
+      <a href='mailto:victoria.simeao@soulasalle.com.br'>Contato</a>
+      <button class='btnLogin-popup'>Login</button>
+    </nav>
+  </header>
+
+  <!-- LOGIN/SENHA -->
+  <div class='wrapper'>
+    <span class='icon-close'><ion-icon name="close"></ion-icon></span>
+
+    <div class='form-box login'>
+      <h2>Login</h2>
+      <form action='#'>
+        <div class='input-box'>
+          <span class='icon'><ion-icon name="mail"></ion-icon></span>
+          <input type='email' required>
+          <label>Email</label>
+        </div>
+        <div class='input-box'>
+          <span class='icon'><ion-icon name="lock-closed"></ion-icon></span>
+          <input type='password' required>
+          <label>Senha</label>
+        </div>
+        <div class='remember-forgot'>
+          <label><input type='checkbox'> Lembrar de mim</label>
+          <a href='#'>Esqueceu a senha?</a>
+        </div>
+        <button type='submit' class='btn'>Login</button>
+        <div class='login-register'>
+          <p>Não tem uma conta? <a href='#' class='register-link'>Registre-se</a></p>
+        </div>
+      </form>
+    </div>
+
+    <div class='form-box register'>
+      <h2>Registre-se</h2>
+      <form action='#'>
+        <div class='input-box'>
+          <span class='icon'><ion-icon name="person"></ion-icon></span>
+          <input type='text' required>
+          <label>Nome de usuário</label>
+        </div>
+        <div class='input-box'>
+          <span class='icon'><ion-icon name="mail"></ion-icon></span>
+          <input type='email' required>
+          <label>Email</label>
+        </div>
+        <div class='input-box'>
+          <span class='icon'><ion-icon name="lock-closed"></ion-icon></span>
+          <input type='password' required>
+          <label>Senha</label>
+        </div>
+        <div class='remember-forgot'>
+          <label><input type='checkbox'> Eu concordo com os termos e condições</label>
+        </div>
+        <button type='submit' class='btn'>Registrar</button>
+        <div class='login-register'>
+          <p>Já tem uma conta? <a href='#' class='login-link'>Faça Login</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ÍCONES EMAIL/SENHA - APENAS ESTÉTICA -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
